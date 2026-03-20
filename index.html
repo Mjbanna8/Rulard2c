@@ -299,6 +299,15 @@
       .line-right { right: 4vw; }
       .line-top    { top: 4vh; }
       .line-bottom { bottom: 4vh; }
+
+      .corner.tl { top: calc(4vh - 16px); left: calc(4vw - 16px); }
+      .corner.tr { top: calc(4vh - 16px); right: calc(4vw - 16px); }
+      .corner.bl { bottom: calc(4vh - 16px); left: calc(4vw - 16px); }
+      .corner.br { bottom: calc(4vh - 16px); right: calc(4vw - 16px); }
+
+      .countdown { gap: clamp(0.5rem, 2vw, 1.5rem); }
+      .time-number { font-size: clamp(2rem, 8vw, 2.8rem); }
+      .time-sep { font-size: clamp(1.5rem, 6vw, 2rem); }
     }
   </style>
 </head>
